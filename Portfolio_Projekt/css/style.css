@@ -40,7 +40,7 @@ body{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-template-areas:
-    "bpage1 bpage2 bpage4";
+    "bpage1 bpage2 bpage3";
     margin: 0% 10%;
     margin-bottom: 35px;
 }
@@ -110,3 +110,45 @@ video{
     justify-content: center;
     align-items: center;
 }
+
+.b1{
+    background-color: #7796cb;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.b2{
+    background-color: #576490;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.b3{
+    background-color: #484168;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.gif{
+    width: auto;
+    height: 200px;
+    border-radius: 0;
+    box-shadow: 0 0 0 rgba(25, 6, 134, 0.452);
+    
+    
+}
+
+.gif:hover{
+    transform: scale(5);
+    transition: all 0.3s ease-in-out;
+}
+
+form{
+    text-align: left;
+    margin-top: auto;
+    
+}
+    
